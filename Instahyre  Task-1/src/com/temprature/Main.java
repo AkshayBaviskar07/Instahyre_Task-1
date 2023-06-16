@@ -11,6 +11,7 @@ public class Main {
         float result = (temp * 9 / 5) + 32;
 
         System.out.println(result+" Farenheit");
+        System.out.println("-----------------------------------");
     }
 
     public static void farenheitToCel(){
@@ -21,6 +22,7 @@ public class Main {
         float result = (temp - 32) / 5*9;
 
         System.out.println(result+" Celcius");
+        System.out.println("-----------------------------------");
     }
 
     public static void main(String[] args) {
@@ -49,6 +51,7 @@ public class Main {
 
             if(choice == 0){
                 System.out.println("Thank you for using this app.");
+                System.out.println("-------------------------------------------------------------");
             }
         }while(choice != 0);
     }
